@@ -1,0 +1,54 @@
+.title{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.auth{
+    background-image: url('../images/signup.jpg');
+    background-size: cover;
+}
+.title2{
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+.Sign_upbox{
+    width: 60%;
+    margin: auto;
+    background-color: #63A0CC;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.full-input {
+    width: 80%;
+    margin: 5px auto;
+    height: 1.5em;
+    display: block;
+    border-radius: 5px;
+}
+
+.half-input {
+    width: 50%;
+    margin: 10px auto;
+    height: 1.5em;
+    display: block;
+    border-radius: 5px;
+}
+
+.label {
+    width: 80%;
+    margin: auto;
+    height: 1.5em;
+    display: block;
+}
+
+.signup_btn {
+    width: 30%;
+    margin: 20px auto;
+    height: 30px;
+    display: block;
+    border-radius: 5px;
+}
