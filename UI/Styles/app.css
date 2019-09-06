@@ -52,3 +52,13 @@
     display: block;
     border-radius: 5px;
 }
+
+.Sign_inbox {
+
+  width: 40%;
+  margin: 150px auto;
+  background-color: #63A0CC;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
