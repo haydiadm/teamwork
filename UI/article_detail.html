@@ -6,72 +6,97 @@
     <link rel="stylesheet" href="Styles/app.css">
   </head>
   <body>
-    <div class="nav-bar">
-            <ul class="nav">
-              <li class="nav-item">TeamWork</li>
-              <li class="nat-item right"><img class="avatar" src="images/avatar.jpeg" /></li>
-              <li class="nav-item right">Houda Boudiaf</li>
-            </ul>
-        </div>
-    <div class="container">
-        <div class="row">
-            <h1>Article title here</h1>
+    <div class="box">
+      <div class="nav-bar">
+              <ul class="nav">
+                <li class="nav-item">TeamWork</li>
+                <li class="nat-item right"><img class="avatar" src="images/avatar.jpeg" /></li>
+                <li class="nav-item right">Houda Boudiaf</li>
+              </ul>
+      </div>
+      <div class="container">
+          <div class="row">
+              <h1 class="art-title">Article title here</h1>
+          </div>
+          <div class="main">
+              <div class="art-body">
+                  <p>
+                    A repository is usually used to organize a single project.
+                    Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs.
+                    We recommend including a README, or a file with information about your project.
+                    GitHub makes it easy to add one at the same time you create your new repository.
+                    It also offers other common options such as a license file.
 
-        </div>
-        <div class="main">
-            <div class="">
-                <p>
-                  A repository is usually used to organize a single project.
-                  Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs.
-                  We recommend including a README, or a file with information about your project.
-                  GitHub makes it easy to add one at the same time you create your new repository.
-                  It also offers other common options such as a license file.
+                    A repository is usually used to organize a single project.
+                    Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs.
+                    We recommend including a README, or a file with information about your project.
+                    GitHub makes it easy to add one at the same time you create your new repository.
+                    It also offers other common options such as a license file.
 
-                  A repository is usually used to organize a single project.
-                  Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs.
-                  We recommend including a README, or a file with information about your project.
-                  GitHub makes it easy to add one at the same time you create your new repository.
-                  It also offers other common options such as a license file.
-
-                  A repository is usually used to organize a single project.
-                  Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs.
-                  We recommend including a README, or a file with information about your project.
-                  GitHub makes it easy to add one at the same time you create your new repository.
-                  It also offers other common options such as a license file.
-                </p>
-            </div>
-            <div class="">
-                <button type="button" name="button">Edit Article</button>
-                <button type="button" name="button">Delete Article</button>
-            </div>
-            <div class="">
-              <div class="">
-                  <h3>Comments</h3>
-                  <p><span>This is a cool article</span><span>By Lee Adam @ 12:00</span></p>
-                  <p><span>This is a cool article</span><span>By Lee Adam @ 12:00</span></p>
-                  <p><span>This is a cool article</span><span>By Lee Adam @ 12:00</span></p>
-                  <p><span>This is a cool article</span><span>By Lee Adam @ 12:00</span></p>
-                  <p><span>This is a cool article</span><span>By Lee Adam @ 12:00</span></p>
+                    A repository is usually used to organize a single project.
+                    Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs.
+                    We recommend including a README, or a file with information about your project.
+                    GitHub makes it easy to add one at the same time you create your new repository.
+                    It also offers other common options such as a license file.
+                  </p>
               </div>
-              <form class="" action="index.html" method="post">
-                <textarea name="comment" rows="3" cols="80" class=""></textarea>
-                <input type="submit" name="" value="Comment" class="">
-              </form>
+              <div class="actions">
+                  <button type="button" name="button" class="action-btn">Edit Article</button>
+                  <button type="button" name="button" class="action-btn">Delete Article</button>
+              </div>
+              <div class="comment-box">
+                <div class="">
+                    <h3>Comments</h3>
+                    <div class="comment">
+                      <div class="comment-text">This is a cool article.This is a cool article. This is a cool article</div>
+                      <div class="comment-author">Lee Adam</div>
+                    </div>
+                    <div class="comment">
+                      <div class="comment-text">This is a cool article.This is a cool article. This is a cool article</div>
+                      <div class="comment-author">Adam</div>
+                    </div>
+                    <div class="comment">
+                      <div class="comment-text">This is a cool article.This is a cool article. This is a cool article</div>
+                      <div class="comment-author">Adam</div>
+                    </div>
+
+                </div>
+                <form class="" action="index.html" method="post">
+                  <textarea name="comment" rows="3" cols="80" class="comment-input"></textarea>
+                  <input type="submit" name="" value="Comment" class="action-btn">
+                </form>
+              </div>
+          </div>
+          <div class="side-right">
+            <div class="side-content">
+              <img src="images/girls-avatar.jpeg" alt="" class="side-avatar">
+              <h4 class="side-author">Author: Houda Boudiaf</h4>
+              <h4 class="side-author">Department: Information Systems</h4>
+              <h4 class="side-date">Date: 12 Oct 2019</h4>
+              <div class="tags">
+                <p class="tag">Tech</p>
+                <p class="tag">Agriculture</p>
+                <p class="tag">AI</p>
+              </div>
             </div>
-        </div>
-        <div class="side-right">
-          <div class="side-content">
-            <h4>Written by Houda Boudiaf</h4>
-            <h4>12 Oct 2019</h4>
           </div>
 
-        </div>
-        <div class="row">
-          <h3>You might also want to check out...</h3>
-          <a href="#">Tech is replacing other jobs, what can you do to stay relevant.</a>
-          <a href="#">Drones in agriculture</a>
-          <a href="#">What is causing the slow adoption of tech in Africa, what your government is hiding from you</a>
-        </div>
+          <div class="row">
+            <h3 class="related-title">You might also want to check out...</h3>
+            <div class="related">
+              <a href="#" class="related-link">
+                What is causing the slow adoption of tech in Africa,
+                 what your government is hiding from you</a>
+            </div>
+            <div class="related">
+              <a href="#" class="related-link">Drones in agriculture</a>
+            </div>
+            <div class="related">
+              <a href="#" class="related-link">
+                Tech is replacing other jobs, what can you do to stay relevant.</a>
+            </div>
+          </div>
+      </div>
     </div>
     <script src="scripts/app.js" charset="utf-8"></script>
   </body>
