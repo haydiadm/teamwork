@@ -1,5 +1,5 @@
 var sb = document.getElementById('sb');
-if (typeof sb != 'undefined') {
+if (sb != null) {
     sb.addEventListener('click', function(event) {
         event.preventDefault();
         var pw = document.getElementById('pw');
@@ -22,7 +22,7 @@ if (typeof sb != 'undefined') {
 
 
 var pw = document.getElementById('pw');
-if (typeof pw != 'undefined') {
+if (pw != null) {
     pw.addEventListener('blur' ,function() {
         if (pw.value.length>=6) {
         //    alert ("correct password length" );
@@ -41,4 +41,21 @@ if (typeof pw != 'undefined') {
         error.innerText="";
     });
 
+}
+
+const comment_btn = document.getElementById('comment_btn');
+
+if (comment_btn != null)
+{
+  comment_btn.addEventListener('click', (event) => {
+    event.preventDefault();
+    const comment_field = document.getElementById('comment_field');
+    const comments = document.getElementById('comments');
+    const text = comment_field.value;
+    const author = 'Lenny A';
+    const comment = document.createElement('div');
+    comment.classList.add('comment');
+    comment.innerHTML = `<div class="comment-text">${text}</div><div class="comment-author">${author}</div>`;
+    comments.appendChild(comment);
+  });
 }
