@@ -1,67 +1,103 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>Edit Article</title>
-        <link rel="stylesheet" href="Styles/app.css">
-    </head>
-    <body>
+  <head>
+    <meta charset="utf-8">
+    <title>Article Delete</title>
+    <link rel="stylesheet" href="Styles/app.css">
+  </head>
+  <body>
+    <div class="box">
       <div class="nav-bar">
-          <ul class="nav">
-            <li class="nav-item">TeamWork</li>
-            <li class="nat-item right"><img class="avatar" src="images/avatar.jpeg" /></li>
-            <li class="nav-item right">Houda Boudiaf</li>
-          </ul>
+              <ul class="nav">
+                <li class="nav-item">TeamWork</li>
+                <li class="nat-item right"><img class="avatar" src="images/avatar.jpeg" /></li>
+                <li class="nav-item right">Houda Boudiaf</li>
+              </ul>
       </div>
-        <div class="">
-            <div class="">
-                <h3>Article title here</h3>
-                <h4>Written by Houda Boudiaf</h4>
-                <h4>12 Oct 2019</h4>
-            </div>
-            <div class="">
-                <div class="">
-                    <p>Toward the end of many follow-up discussions with most of the business owners pro-
-filed in the book, I asked about their biggest
-fears, worries, or concerns. All these people
-had been successful, earning at least
-$50,000 a year from their projects (many
-were earning much more), but what werethey worried about? What kept them up at
-night?
-Their concerns fit into two broad areas:
-external and internal. External concerns ten-
-ded to relate to money and a changing mar-
-ketplace. For example, a few businesses had
-been created to exploit imbalances in tech-
-nology. These projects can be very profitable
-for a time, but when the music stops playing,
-the ride is over. A business that grows
-primarily from strong Google rankings or
-good placement in the iTunes store (“favored
-by the gods of Apple,” as one person put it) is
-in danger of losing it all if fortunes change.
-Scott McMurren, who published the Alaska
-coupon books, said he was closely watching
-the online coupon craze, considering ways to
-update the business to be more digital-
-friendly.
-The role of competition was mentioned
-frequently, although in very different ways.
-Several people said they weren’t worriedabout what other businesses were doing, be-
-cause they found it more productive to keep
-moving forward with their own original
-work. Others did worry, especially about
-building something unique only to see it
-copied or “stolen” by a more established
-company.</p>
-                </div>
-                <div class="">
-                    <button type="button" name="button">Edit Article</button>
-                    <button type="button" name="button">Delete Article</button>
-                </div>
-            </div>
+      <div class="container">
+          <div class="row">
+              <h1 class="art-title">Article title here</h1>
+          </div>
+          <div class="main">
+              <div class="art-body">
+                  <p>
+                    A repository is usually used to organize a single project.
+                    Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs.
+                    We recommend including a README, or a file with information about your project.
+                    GitHub makes it easy to add one at the same time you create your new repository.
+                    It also offers other common options such as a license file.
 
-        </div>
-        <script src="scripts/app.js" charset="utf-8"></script>
-    </body>
+                    A repository is usually used to organize a single project.
+                    Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs.
+                    We recommend including a README, or a file with information about your project.
+                    GitHub makes it easy to add one at the same time you create your new repository.
+                    It also offers other common options such as a license file.
+
+                    A repository is usually used to organize a single project.
+                    Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs.
+                    We recommend including a README, or a file with information about your project.
+                    GitHub makes it easy to add one at the same time you create your new repository.
+                    It also offers other common options such as a license file.
+                  </p>
+              </div>
+              <div class="actions">
+                  <button type="button" name="button" class="action-btn">Edit Article</button>
+                  <button type="button" name="button" class="action-btn">Delete Article</button>
+              </div>
+              <div class="comment-box">
+                <div class="">
+                    <h3>Comments</h3>
+                    <div class="comment">
+                      <div class="comment-text">This is a cool article.This is a cool article. This is a cool article</div>
+                      <div class="comment-author">Lee Adam</div>
+                    </div>
+                    <div class="comment">
+                      <div class="comment-text">This is a cool article.This is a cool article. This is a cool article</div>
+                      <div class="comment-author">Adam</div>
+                    </div>
+                    <div class="comment">
+                      <div class="comment-text">This is a cool article.This is a cool article. This is a cool article</div>
+                      <div class="comment-author">Adam</div>
+                    </div>
+
+                </div>
+                <form class="" action="index.html" method="post">
+                  <textarea name="comment" rows="3" cols="80" class="comment-input"></textarea>
+                  <input type="submit" name="" value="Comment" class="action-btn">
+                </form>
+              </div>
+          </div>
+          <div class="side-right">
+            <div class="side-content">
+              <img src="images/girls-avatar.jpeg" alt="" class="side-avatar">
+              <h4 class="side-author">Author: Houda Boudiaf</h4>
+              <h4 class="side-author">Department: Information Systems</h4>
+              <h4 class="side-date">Date: 12 Oct 2019</h4>
+              <div class="tags">
+                <p class="tag">Tech</p>
+                <p class="tag">Agriculture</p>
+                <p class="tag">AI</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <h3 class="related-title">You might also want to check out...</h3>
+            <div class="related">
+              <a href="#" class="related-link">
+                What is causing the slow adoption of tech in Africa,
+                 what your government is hiding from you</a>
+            </div>
+            <div class="related">
+              <a href="#" class="related-link">Drones in agriculture</a>
+            </div>
+            <div class="related">
+              <a href="#" class="related-link">
+                Tech is replacing other jobs, what can you do to stay relevant.</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="scripts/app.js" charset="utf-8"></script>
+  </body>
 </html>
